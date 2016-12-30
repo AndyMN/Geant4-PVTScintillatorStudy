@@ -1,0 +1,24 @@
+DataSetPostFix = Opt;																# Any string to append to root filenames to differentiate datasets
+GenerateDataFiles = 0;
+UseOpticalPhysics = 1;
+DataFileDirectory = /media/andy/LaCie/Datasets/;		# Directory to store .root datafiles (It will be stored in DataFileDirectory + DataSetPostFix)
+
+DataFileOption = RECREATE;													# Option for a TFile, RECREATE = Make a new one regardless of existence, NEW = Make one if doesn't exist yet
+ERangeStart = [[1, 5]];																	# Start value for an energy range for every particle type (set to -1 if not using an energy range)
+ERangeStop = [[10, 20]];																	# End value for an energy range for every particle type (set to -1 if not using an energy range)
+ERangeStep = [[1, 1]];																		# Step size for the pre defined energy range for every particle type 
+ParticleTypes = mu-;																# Particle types to investigate
+NumEvents = 10;																		# Number of events in a single run
+SlabThickness = 100;																# Thickness of slab (in mm)
+#EDiscreteValues = [5];
+
+
+AnalyzeData = 1;			# Define if we want to analyze the simulation data.
+SaveHistograms = 1;		# Define if we want to save the histograms to a root file (SaveHistograms or MakePlots should be 1)
+MakePlots = 1;			# Define if we want to make plots of the analyzed data (SaveHistograms or MakePlots should be 1)
+
+StoppingPower = 1;
+OptPhotonAmount = 1;	# Define for which particles we want to analyze the amount of opt photons for a given begin energy (N on y-axis, Ekin start on x_axis)
+OptPhotonAmountdE = 1;
+
+

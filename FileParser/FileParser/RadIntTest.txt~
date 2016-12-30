@@ -1,0 +1,20 @@
+DataSetPostFix = 1 ;			# Any string to append to root filenames to differentiate datasets
+RootFileDirectory = /media/andy/LaCie/Datasets/;		# Directory to store .root datafiles
+#RootFileDirectory = ../ScintillatorSlab/;
+RootFileOptions = [RECREATE, RECREATE, NEW, NEW];		# Option for a TFile, RECREATE = Make a new one regardless of existence, NEW = Make one if doesn't exist yet
+ERangeStart = [100, 5, 0.01, 10];						# Start value for an energy range for every particle type (set to -1 if not using an energy range)
+ERangeStop = [1000, 10, 0.05, 20];						# End value for an energy range for every particle type (set to -1 if not using an energy range)
+ERangeStep = [100, 1, 0.01, 1];								# Step size for the pre defined energy range for every particle type (set to -1 if not using an energy range)
+EDiscreteValues = [[10, 20], [30, 500, 5000]];		# Discrete energy values for every particle type(can be used together with a range or without)
+ParticleTypes = [gamma, mu-, e-, neutron];	# Particle types to investigate (If only a single particle type [particlename])
+NumEvents = 1000;										# Number of events in a single run
+SaveHistogramsToFile = 1;		# Define if we want to save the histograms to a file
+StoppingPowerPlot = [1, 1, 0, 0];		# Define which particle types need a stopping power plot (dE/dx on y-axis and Ekin on x-axis)
+LandauPlot = [1, 1, 0, 0];		# Define which particle types need a Landau distribution plot (N on y-axis and dE/dx on x-axis)
+PhotonDistributionPlot = [0, 1, 1, 1];		# Define for which particles we make a Photon distribution plot (#Photons on y-axis and dE/dx on x-axis)
+SecondaryParticlesPlot = [1, 1, 1, 1];		# Define for which particle we make a plot with the Secondary Particles on (N on y-axis and ParticleName on x-axis)
+TimeAnalysisPlot = [1, 1, 1, 1];		# Define for which particles we make a time analysis plot (#Scintillation Photons on y-axis and time on x-axis)
+
+
+
+

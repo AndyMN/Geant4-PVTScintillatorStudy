@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1460974858 source:/home/andy/Documents/ProjInteractionRadMatter/FileParser/FileParser/main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+	<string>
+	<vector>
+	"FileParser.h"
+
+1460974779 source:/home/andy/Documents/ProjInteractionRadMatter/FileParser/FileParser/FileParser.cpp
+	"FileParser.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+
+1460972286 /home/andy/Documents/ProjInteractionRadMatter/FileParser/FileParser/FileParser.h
+	<string>
+	<vector>
+

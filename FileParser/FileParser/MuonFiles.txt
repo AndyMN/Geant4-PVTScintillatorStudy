@@ -1,0 +1,10 @@
+DataSetPostFix = 1 ;																# Any string to append to root filenames to differentiate datasets
+MakeRootFiles = 1;																	# Defines if datafiles should be made
+RootFileDirectory = /media/andy/LaCie/Datasets/;		# Directory to store .root datafiles
+RootFileOptions = RECREATE;													# Option for a TFile, RECREATE = Make a new one regardless of existence, NEW = Make one if doesn't exist yet
+ERangeStart = 100;																	# Start value for an energy range for every particle type (set to -1 if not using an energy range)
+ERangeStop = 1000;																	# End value for an energy range for every particle type (set to -1 if not using an energy range)
+ERangeStep = 100;																		# Step size for the pre defined energy range for every particle type 
+ParticleTypes = mu-;																# Particle types to investigate (If only a single particle type [particlename])
+NumEvents = 1000;																		# Number of events in a single run
+
