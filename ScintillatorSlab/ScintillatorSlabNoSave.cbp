@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ScintillatorSlabNoSave" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ScintillatorSlabNoSave" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-w" />
+					<Add option="-g" />
+					<Add option="-DG4INTY_USE_XT -DG4VIS_USE_OPENGL -DG4UI_USE_TCSH -DG4INTY_USE_QT -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -I/usr/local/Trolltech/Qt-4.8.6/include/QtCore -I/usr/local/Trolltech/Qt-4.8.6/include/QtGui -I/usr/local/Trolltech/Qt-4.8.6/include/QtOpenGL -DG4VIS_USE_OPENGLX -W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -DG4USE_STD11 -std=c++11 -I/home/andy/Geant4/geant4.10.02-install/bin/../include/Geant4" />
+					<Add directory="../../../Geant4/geant4.10.02-install/include/Geant4" />
+					<Add directory="../../../../../usr/local/include/root" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../../../usr/local/lib/root/libGenetic.so" />
+					<Add library="../../../../../usr/local/lib/root/libTMVA.so" />
+					<Add library="../../../../../usr/local/lib/root/libProofBench.so" />
+					<Add library="../../../../../usr/local/lib/root/libSrvAuth.so" />
+					<Add library="../../../../../usr/local/lib/root/libRooStats.so" />
+					<Add library="../../../../../usr/local/lib/root/libRooFit.so" />
+					<Add library="../../../../../usr/local/lib/root/libRooFitCore.so" />
+					<Add library="../../../../../usr/local/lib/root/libCintex.so" />
+					<Add library="../../../../../usr/local/lib/root/libUnuran.so" />
+					<Add library="../../../../../usr/local/lib/root/libMinuit2.so" />
+					<Add library="../../../../../usr/local/lib/root/libGenVector.so" />
+					<Add library="../../../../../usr/local/lib/root/libASImageGui.so" />
+					<Add library="../../../../../usr/local/lib/root/libASImage.so" />
+					<Add library="../../../../../usr/local/lib/root/libAfterImage.a" />
+					<Add library="../../../../../usr/local/lib/root/libMemStat.so" />
+					<Add library="../../../../../usr/local/lib/root/libX3d.so" />
+					<Add library="../../../../../usr/local/lib/root/libGX11TTF.so" />
+					<Add library="../../../../../usr/local/lib/root/libGX11.so" />
+					<Add library="../../../../../usr/local/lib/root/libRecorder.so" />
+					<Add library="../../../../../usr/local/lib/root/libGuiHtml.so" />
+					<Add library="../../../../../usr/local/lib/root/libSessionViewer.so" />
+					<Add library="../../../../../usr/local/lib/root/libProofDraw.so" />
+					<Add library="../../../../../usr/local/lib/root/libProofPlayer.so" />
+					<Add library="../../../../../usr/local/lib/root/libProof.so" />
+					<Add library="../../../../../usr/local/lib/root/libFitPanel.so" />
+					<Add library="../../../../../usr/local/lib/root/libSpectrumPainter.so" />
+					<Add library="../../../../../usr/local/lib/root/libSpectrum.so" />
+					<Add library="../../../../../usr/local/lib/root/libGeomBuilder.so" />
+					<Add library="../../../../../usr/local/lib/root/libSQLIO.so" />
+					<Add library="../../../../../usr/local/lib/root/libSmatrix.so" />
+					<Add library="../../../../../usr/local/lib/root/libSPlot.so" />
+					<Add library="../../../../../usr/local/lib/root/libFoam.so" />
+					<Add library="../../../../../usr/local/lib/root/libXMLIO.so" />
+					<Add library="../../../../../usr/local/lib/root/libGuiBld.so" />
+					<Add library="../../../../../usr/local/lib/root/libRootAuth.so" />
+					<Add library="../../../../../usr/local/lib/root/libQuadp.so" />
+					<Add library="../../../../../usr/local/lib/root/libMLP.so" />
+					<Add library="../../../../../usr/local/lib/root/libFumili.so" />
+					<Add library="../../../../../usr/local/lib/root/libVMC.so" />
+					<Add library="../../../../../usr/local/lib/root/libGeomPainter.so" />
+					<Add library="../../../../../usr/local/lib/root/libGeom.so" />
+					<Add library="../../../../../usr/local/lib/root/libEG.so" />
+					<Add library="../../../../../usr/local/lib/root/libHtml.so" />
+					<Add library="../../../../../usr/local/lib/root/libRint.so" />
+					<Add library="../../../../../usr/local/lib/root/libPostscript.so" />
+					<Add library="../../../../../usr/local/lib/root/libPhysics.so" />
+					<Add library="../../../../../usr/local/lib/root/libTreeViewer.so" />
+					<Add library="../../../../../usr/local/lib/root/libGed.so" />
+					<Add library="../../../../../usr/local/lib/root/libTreePlayer.so" />
+					<Add library="../../../../../usr/local/lib/root/libHistPainter.so" />
+					<Add library="../../../../../usr/local/lib/root/libMinuit.so" />
+					<Add library="../../../../../usr/local/lib/root/libGui.so" />
+					<Add library="../../../../../usr/local/lib/root/libGraf3d.so" />
+					<Add library="../../../../../usr/local/lib/root/libGpad.so" />
+					<Add library="../../../../../usr/local/lib/root/libGraf.so" />
+					<Add library="../../../../../usr/local/lib/root/libmathtext.a" />
+					<Add library="../../../../../usr/local/lib/root/libTree.so" />
+					<Add library="../../../../../usr/local/lib/root/libHist.so" />
+					<Add library="../../../../../usr/local/lib/root/libNew.so" />
+					<Add library="../../../../../usr/local/lib/root/libMatrix.so" />
+					<Add library="../../../../../usr/local/lib/root/libNet.so" />
+					<Add library="../../../../../usr/local/lib/root/libMathCore.so" />
+					<Add library="../../../../../usr/local/lib/root/libRIO.so" />
+					<Add library="../../../../../usr/local/lib/root/libThread.so" />
+					<Add library="../../../../../usr/local/lib/root/libcomplexDict.so" />
+					<Add library="../../../../../usr/local/lib/root/libvalarrayDict.so" />
+					<Add library="../../../../../usr/local/lib/root/libmultisetDict.so" />
+					<Add library="../../../../../usr/local/lib/root/libmultimap2Dict.so" />
+					<Add library="../../../../../usr/local/lib/root/libmultimapDict.so" />
+					<Add library="../../../../../usr/local/lib/root/libsetDict.so" />
+					<Add library="../../../../../usr/local/lib/root/libmap2Dict.so" />
+					<Add library="../../../../../usr/local/lib/root/libmapDict.so" />
+					<Add library="../../../../../usr/local/lib/root/libdequeDict.so" />
+					<Add library="../../../../../usr/local/lib/root/liblistDict.so" />
+					<Add library="../../../../../usr/local/lib/root/libvectorDict.so" />
+					<Add library="../../../../../usr/local/lib/root/libReflexDict.so" />
+					<Add library="../../../../../usr/local/lib/root/libReflex.so" />
+					<Add library="../../../../../usr/local/lib/root/libCore.so" />
+					<Add library="../../../../../usr/local/lib/root/liblzma.a" />
+					<Add library="../../../../../usr/local/lib/root/libCint.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4physicslists.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4OpenGL.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4GMocren.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4visXXX.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4VRML.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4Tree.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4RayTracer.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4visHepRep.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4FR.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4vis_management.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4persistency.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4modeling.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4error_propagation.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4readout.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4run.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4event.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4tracking.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4parmodels.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4processes.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4digits_hits.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4track.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4particles.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4geometry.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4analysis.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4materials.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4interfaces.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4graphics_reps.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4intercoms.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4global.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4clhep.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4gl2ps.so" />
+					<Add library="../../../Geant4/geant4.10.02-install/lib/libG4zlib.so" />
+					<Add directory="../../../Geant4/geant4.10.02-install/lib" />
+					<Add directory="../../../../../usr/local/lib/root" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ScintillatorSlabNoSave" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../FileParser/FileParser/FileParser.cpp" />
+		<Unit filename="../FileParser/FileParser/FileParser.h" />
+		<Unit filename="DictOutput.cxx" />
+		<Unit filename="DictOutput.h" />
+		<Unit filename="EventData.cpp" />
+		<Unit filename="EventData.h" />
+		<Unit filename="Linkdef.h" />
+		<Unit filename="ScintillatorAnalysisManager.cpp" />
+		<Unit filename="ScintillatorAnalysisManager.h" />
+		<Unit filename="ScintillatorConstruction.cpp" />
+		<Unit filename="ScintillatorConstruction.h" />
+		<Unit filename="ScintillatorEventAction.cpp" />
+		<Unit filename="ScintillatorEventAction.h" />
+		<Unit filename="ScintillatorPhysicsList.cpp" />
+		<Unit filename="ScintillatorPhysicsList.h" />
+		<Unit filename="ScintillatorPrimaryGeneratorAction.cpp" />
+		<Unit filename="ScintillatorPrimaryGeneratorAction.h" />
+		<Unit filename="ScintillatorRunAction.cpp" />
+		<Unit filename="ScintillatorRunAction.h" />
+		<Unit filename="ScintillatorSteppingAction.cpp" />
+		<Unit filename="ScintillatorSteppingAction.h" />
+		<Unit filename="ScintillatorTrackingAction.cpp" />
+		<Unit filename="ScintillatorTrackingAction.h" />
+		<Unit filename="StepData.cpp" />
+		<Unit filename="StepData.h" />
+		<Unit filename="TrackData.cpp" />
+		<Unit filename="TrackData.h" />
+		<Unit filename="mainNoSave.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
